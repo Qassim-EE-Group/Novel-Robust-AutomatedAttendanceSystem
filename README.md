@@ -9,15 +9,15 @@ First of all, you need a camera to connect it with the code, so that the code ca
 
 Secondly, you have to install the following libraries:
 
-io (from BytesIO)
+- io (from BytesIO)
 
-Flask
+- Flask
 
-flask_socketio
+- flask_socketio
 
-mysql.connector
+- mysql.connector
 
-werkzeug.security
+- werkzeug.security
 
 werkzeug.utils
 

@@ -9,6 +9,8 @@ First of all, you need a camera to connect it with the code, so that the code ca
 
 Secondly, you have to install the following libraries:
 
+- Python v3.9
+
 - io (from BytesIO)
 
 - Flask

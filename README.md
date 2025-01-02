@@ -19,21 +19,21 @@ Secondly, you have to install the following libraries:
 
 - werkzeug.security
 
-werkzeug.utils
+- werkzeug.utils
 
-cv2
+- cv2
 
-numpy
+- numpy
 
-insightface(Microsoft C++ Build Tools is needed)
+- insightface(Microsoft C++ Build Tools is needed)
 
-insightface.app
+- insightface.app
 
-torch
+- torch
 
-ultralytics.YOLO
+- ultralytics.YOLO
 
-pandas
+- pandas
 
 
 ## Codes explanation

@@ -17,25 +17,27 @@ Secondly, you have to install the following libraries:
 
 - flask_socketio
 
-- mysql.connector
+- mysql.connector.python
 
 - werkzeug.security
 
 - werkzeug.utils
 
-- cv2
+- opencv-python
 
 - numpy
 
-- insightface(Microsoft C++ Build Tools is needed)
-
-- insightface.app
+- insightface (Microsoft C++ Build Tools is needed)
 
 - torch
 
-- ultralytics.YOLO
+- ultralytics
 
 - pandas
+
+- ESRGAN model
+
+- onnxruntime
 
 
 ## Codes explanation

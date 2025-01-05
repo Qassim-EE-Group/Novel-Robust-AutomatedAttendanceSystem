@@ -39,7 +39,7 @@ This repository contains the codebase for an automated attendance system built w
 
 3. You have to Download the following models:
 
-  a) Download yolov8x.pt from the official Ultralytics website using the link https://docs.ultralytics.com/models/yolov8/. After that, place the model in the following directory in the folder (\YOLOv8\yolov8x.pt).
+  a) Download yolov8x.pt from the official Ultralytics website using the link https://docs.ultralytics.com/models/yolov8/. After that, place the model in the following directory in the folder (/YOLOv8/yolov8x.pt).
 
   b) Download ESRGAN model from its official GitHub repository https://github.com/xinntao/ESRGAN/tree/master. 
   

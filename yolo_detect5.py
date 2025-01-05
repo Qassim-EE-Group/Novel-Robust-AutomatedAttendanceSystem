@@ -9,7 +9,7 @@ from ESRGAN import RRDBNet_arch as arch
 
 def run_yolo(image_path):
     # Load YOLOv8 model
-    model = YOLO(".YOLOv8/yolov8x.pt")  
+    model = YOLO("yolov8x.pt")  
 
     # Perform detection
     results = model.predict(source=image_path, conf=0.1)  # Set confidence threshold

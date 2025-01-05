@@ -39,7 +39,7 @@ This repository contains the codebase for an automated attendance system built w
 
 3. You have to Download the following models:
 
->- Download the "yolov8x.pt" model from the official Ultralytics website [here](https://docs.ultralytics.com/models/yolov8/#performance-metrics).
+>- Download the "yolov8x.pt" model from the official Ultralytics website [here](https://docs.ultralytics.com/models/yolov8/#performance-metrics) and save it in the project directory.
   
 >- Download the ESRGAN model from its official GitHub repository [here](https://github.com/xinntao/ESRGAN/tree/master) and place its folder within the project directory. Next, download the pretrained model "RRDB_ESRGAN_x4.pth" and save it in the (/ESRGAN/models) directory.
   

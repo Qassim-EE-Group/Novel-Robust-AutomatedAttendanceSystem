@@ -5,40 +5,44 @@ This repository contains the codebase for an automated attendance system built w
 
 ## Requirements
 
-First of all, you need a camera to connect it with the code, so that the code can take the input image from it.
+1. You need a camera to connect it with the code, so that the code can take the input image from it.
 
-Secondly, you have to install the following libraries:
+2. You have to install the following libraries using pip:
 
-- Python v3.9
+  - Python v3.9
 
-- io (from BytesIO)
+  - io (from BytesIO)
 
-- Flask
+  - Flask
 
-- flask_socketio
+  - flask_socketio
 
-- mysql.connector.python
+  - mysql.connector.python
 
-- werkzeug.security
+  - werkzeug.security
 
-- werkzeug.utils
+  - werkzeug.utils
 
-- opencv-python
+  - opencv-python
 
-- numpy
+  - numpy
 
-- insightface (Microsoft C++ Build Tools is needed)
+  - insightface (Microsoft C++ Build Tools is needed)
 
-- torch
+  - torch
 
-- ultralytics
+  - ultralytics
 
-- pandas
+  - pandas
+  
+  - onnxruntime
 
-- ESRGAN model
+3. You have to Download the following models:
 
-- onnxruntime
+  a) Download yolov8x.pt from the official Ultralytics website using the link https://docs.ultralytics.com/models/yolov8/. After that, place the model in the following directory in the folder (\YOLOv8\yolov8x.pt).
 
+  b) Download ESRGAN model from its official GitHub repository https://github.com/xinntao/ESRGAN/tree/master. 
+  
 
 ## Codes explanation
 

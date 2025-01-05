@@ -9,33 +9,33 @@ This repository contains the codebase for an automated attendance system built w
 
 2. You have to install the following libraries:
 
->- Python v3.9
+>- Python v3.9.
 
->- io (from BytesIO)
+>- io (from BytesIO).
 
->- Flask
+>- Flask.
 
->- flask_socketio
+>- flask_socketio.
 
->- mysql.connector.python
+>- mysql.connector.python.
 
->- werkzeug.security
+>- werkzeug.security.
 
->- werkzeug.utils
+>- werkzeug.utils.
 
->- opencv-python
+>- opencv-python.
 
->- numpy
+>- numpy.
 
->- insightface (Microsoft C++ Build Tools is needed)
+>- insightface (Microsoft C++ Build Tools is needed).
 
->- torch
+>- torch.
 
->- ultralytics
+>- ultralytics.
 
->- pandas
+>- pandas.
   
->- onnxruntime
+>- onnxruntime.
 
 3. You have to Download the following models (Note that all folders should be placed within the same project directory.):
 

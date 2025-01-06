@@ -44,6 +44,26 @@ This repository contains the codebase for an automated attendance system built w
 >- Download the ESRGAN model from its official GitHub repository [here](https://github.com/xinntao/ESRGAN/tree/master) and place its folder within the project directory. Next, download the pretrained model "RRDB_ESRGAN_x4.pth" and save it in the (/ESRGAN/models) directory.
   
 
+## Integrating Your Camera with the Script
+
+To integrate your camera with the script for capturing input images, follow the following steps:
+
+1. **Update the Camera URL**  
+   - Open the file `aasfinal7.py`.  
+   - Replace the `camera_url_flash` with your camera's URL.
+
+2. **Update the Session ID**  
+   - In the same script, locate `flashlight_on_payload`.  
+   - Replace the session ID with your unique session ID.
+
+3. **Retrieve Your Camera URL and Session ID**  
+   - Open your camera's live streaming interface in a web browser.  
+   - Press **F12** to open the browser's developer tools.  
+   - Navigate to the **Network** tab.  
+   - Find your session ID in the network activity logs and copy it.
+
+**Please ensure that you have updated your camera's URL and session ID before executing the script. This will allow the script to access your camera feed and function as intended.**
+
 ## Codes explanation
 
 Now we will explain each code. What is the purpose of it and what is the key lines yo have to modify, so the code work properly in your computer.

@@ -49,7 +49,7 @@ This repository contains the codebase for an automated attendance system built w
 Now we will explain each code. What is the purpose of it and what is the key lines yo have to modify, so the code work properly in your computer.
 
 ### AAS_Program.py
-
+This is the main script for the system.
 
 ### aasfinal7.py
 

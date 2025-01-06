@@ -78,3 +78,8 @@ It consists of 5 html codes each one of them plays an important role in shaping 
 ## Database
 
 By using MySQL library, we created a database to save the images of each student, and they can upload an image by entering the student user-interface and upload the desire images. These images are saved in a pkl-file folder, also the results of the attendance process is saved in pkl-file folder and on the user-interface.  
+
+
+### Database Hosting Status
+
+Currently, the database for this project is hosted on our local system, and we are the sole hosts. At this time, we cannot migrate the database to other platforms, such as Oracle Cloud Free Tier or a local setup for independent users. However, this transition is planned to take place in the coming days. Until then, the database will only be accessible when we manually start the service. If you need access or would like to work with the system during this period, please feel free to contact us at Abdullah.Ali.4@hotmail.com, Abdulmalikqifari@gmail.com, t.osman8@outlook.com, or Abdulmalik.zd4@gmail.com, and we will ensure the database is available for your use.
